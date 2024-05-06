@@ -1,0 +1,28 @@
+﻿UE5.4 Console Command Repository
+OVERVIEW & PURPOSE
+You can execute console commands from within the game, the editor, or the server's console.
+LUMEN
+r.TSR.ShadingRejection.Flickering.Period 1000
+
+
+
+
+Texture Streaming
+r.Streaming.PoolSize 1000
+
+
+Nanites
+r.Nanite.AllowTesselation=1
+r.Nanite.Tessellation=1
+
+
+
+
+
+
+
+
+
+
+DIsclaimer:
+This repository compiles Unreal Engine 5 console commands for educational and experimental purposes. While they offer insights into the engine's capabilities, modifying game behavior can lead to instability, data corruption, or unexpected results. Always back up projects before experimentation.
