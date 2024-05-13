@@ -14,7 +14,7 @@ r.Streaming.PoolSize 1000
 Nanites
 r.Nanite.AllowTesselation=1
 r.Nanite.Tessellation=1
-
+r.Raytracing.Shadows.EnableTwoSidedGeometry 0
 
 
 
