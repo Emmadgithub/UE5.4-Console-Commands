@@ -16,7 +16,18 @@ r.RayTracing.Nanite.Mode 1
 r.Raytracing.Shadows.EnableTwoSidedGeometry 0
 
 r.RayTracing.Geometry.Water 1
+r.Raytracing.Geometry.StaticMeshes.WPO.CullingRadius 10000
+r.Raytracing.Geometry.InstancedStaticMeshes.EvaluateWPO 1
+r.Raytracing.Culling 2
+r.MinScreenRadiusForLights 0.01
 
-DIsclaimer:
+SHADOWS
+
+r.Shadow.distanceScale 0
+
+
+
+
+Disclaimer:
 This repository compiles Unreal Engine 5 console commands for educational and experimental purposes. While they offer insights into the engine's capabilities, modifying game behavior can lead to instability, data corruption, or unexpected results. Always back up projects before experimentation.
 
